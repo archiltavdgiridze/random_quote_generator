@@ -43,7 +43,11 @@ export default function App() {
         <div className="buttons_div">
           <div className="socials_div">
             <button type="" className="twitter">
-              <a href="twitter.com/intent/tweet" id="tweet-quote">
+              <a
+                href="https://www.twitter.com/intent/tweet"
+                target="_blank"
+                id="tweet-quote"
+              >
                 <i class="fa-brands fa-twitter"></i>
               </a>
             </button>
