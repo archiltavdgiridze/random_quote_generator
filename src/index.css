@@ -27,7 +27,7 @@ code {
   justify-content: center;
   align-items: center;
   align-content: center;
-
+  padding: 30px;
 }
 
 #quote-box {
@@ -109,7 +109,9 @@ code {
 #new-quote {
   background-color: transparent;
   border: none;
+  background-color: #000;
   color: #fff;
+  outline-color: transparent;
   border-radius: 3px;
   padding: 10px 20px;
   font-size: 1rem;
@@ -121,4 +123,40 @@ code {
 #new-quote:hover {
   background-color: #000;
   color: #fff;
+}
+
+@media screen and (max-width: 450px) {
+  .socials_div button {
+    padding: 10px 15px;
+  }
+
+  .socials_div button :nth-child(1) {
+    padding: 10px 0;
+  }
+
+  #quote-box {
+    padding: 30px 30px;
+  }
+
+  #text_p {
+    /* margin-block-start: 0; */
+    margin-block-end: 0;
+
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .buttons_div {
+    flex-direction: column-reverse;
+  }
+
+  .buttons_div button {
+    margin-top: 20px;
+  }
+
+  .buttons_div button :nth-child(1) {
+    margin-top: 0;
+  }
+
 }

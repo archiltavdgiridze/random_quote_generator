@@ -34,7 +34,7 @@ export default function App() {
     <div className="App" id="App">
       <div className="quote_box_continer" id="quote-box">
         <div className="text" id="text">
-          <i class="fa fa-quote-left"></i>
+          <i className="fa fa-quote-left"></i>
           <p id="text_p">{data.content}</p>
         </div>
         <div className="author" id="author">
@@ -48,11 +48,11 @@ export default function App() {
                 target="_top"
                 id="tweet-quote"
               >
-                <i class="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-twitter"></i>
               </a>
             </button>
             <button type="" className="tumblr">
-              <i class="fa-brands fa-tumblr"></i>
+              <i className="fa-brands fa-tumblr"></i>
             </button>
           </div>
           <button
