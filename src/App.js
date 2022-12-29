@@ -45,7 +45,7 @@ export default function App() {
             <button type="" className="twitter">
               <a
                 href="https://www.twitter.com/intent/tweet"
-                target="_blank"
+                target="_top"
                 id="tweet-quote"
               >
                 <i class="fa-brands fa-twitter"></i>
